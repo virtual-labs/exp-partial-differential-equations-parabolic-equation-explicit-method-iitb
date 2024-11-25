@@ -1,1 +1,1 @@
-## Experiment name
+## PDE: Parabolic equation - explicit method
