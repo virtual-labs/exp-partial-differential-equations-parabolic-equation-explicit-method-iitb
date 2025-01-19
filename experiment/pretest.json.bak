@@ -1,0 +1,29 @@
+[
+    {
+        "question": "<span style='display:inline-block'>$$ u = f(x_j, y_i)\\ then \\frac{\\partial u}{\\partial x} $$</span> by forward difference is given by",
+        "qid": 1,
+        "option_a": "<span style='display:inline-block'>$$ \\frac{u_{i+1,j} - u_{i,j}}{h} $$</span>",
+        "option_b": "<span style='display:inline-block'>$$ \\frac{u_{i-1,j} - u_{i,j}}{h} $$</span>",
+        "option_c": "<span style='display:inline-block'>$$ \\frac{u_{i,j} - u_{i,j-1}}{h} $$</span>",
+        "option_d": "<span style='display:inline-block'>$$ \\frac{u_{i,j+1} - u_{i,j}}{h} $$</span>",
+        "correct_option": "d"
+    },
+    {
+        "question": "<span style='display:inline-block'>$$ u = f(x_j, y_i)\\ then \\frac{\\partial u}{\\partial x} $$</span> by backward difference is given by",
+        "qid": 2,
+        "option_a": "<span style='display:inline-block'>$$ \\frac{u_{i,j} - u_{i,j-1}}{h} $$</span>",
+        "option_b": "<span style='display:inline-block'>$$ \\frac{u_{i-1,j} - u_{i,j}}{h} $$</span>",
+        "option_c": "<span style='display:inline-block'>$$ \\frac{u_{i+1,j} - u_{i,j}}{h} $$</span>",
+        "option_d": "<span style='display:inline-block'>$$ \\frac{u_{i,j+1} - u_{i,j}}{h} $$</span>",
+        "correct_option": "a"
+    },
+    {
+        "question": "<span style='display:inline-block'>$$ u = f(x_j, y_i)\\ then \\frac{\\partial u}{\\partial x} $$</span> by central difference is given by",
+        "qid": 3,
+        "option_a": "<span style='display:inline-block'>$$ \\frac{u_{i,j} - u_{i,j-1}}{h} $$</span>",
+        "option_b": "<span style='display:inline-block'>$$ \\frac{u_{i,j+1} - u_{i,j}}{h} $$</span>",
+        "option_c": "<span style='display:inline-block'>$$ \\frac{u_{i,j+1} - u_{i,j-1}}{2h} $$</span>",
+        "option_d": "<span style='display:inline-block'>$$ \\frac{u_{i-1,j} - u_{i,j}}{h} $$</span>",
+        "correct_option": "c"
+    }
+]
